@@ -32,7 +32,7 @@ $D^{- {1\over 2}}$:度越大，影响越小。
 
 ## 发展过程
 
-<img src="F:\lishuai\GCN\image-20210913105103683.png" alt="image-20210913105103683" style="zoom:25%;" />
+<img src="..\Image\image-20210913105103683.png" alt="image-20210913105103683" style="zoom:25%;" />
 
 ## 空域
 
@@ -52,7 +52,7 @@ GraphSage：节点太多的话，利用采样点信息更新信息。
 
 GAT：修改更新函数。
 
-<img src="F:\lishuai\GCN\image-20210913111724638.png" alt="image-20210913111724638" style="zoom:25%;" />
+<img src="..\Image\image-20210913111724638.png" alt="image-20210913111724638" style="zoom:25%;" />
 
 
 
@@ -79,27 +79,27 @@ GCN的输出函数选择
 
 注意力机制$\alpha$是一个单层的前馈神经网络。
 
-<img src="F:\lishuai\GCN\image-20210913171607117.png" alt="image-20210913171607117" style="zoom:70%;" />
+<img src=".\Image\image-20210913171607117.png" alt="image-20210913171607117" style="zoom:70%;" />
 
-<img src="F:\lishuai\GCN\image-20210913192419269.png" alt="image-20210913192419269" style="zoom:50%;" />
+<img src=".\Image\image-20210913192419269.png" alt="image-20210913192419269" style="zoom:50%;" />
 
 LeakyReLU：negative input slope  $\alpha = 0.2$
 
-<img src="F:\lishuai\GCN\image-20210913174233536.png" alt="image-20210913174233536" style="zoom:80%;" />
+<img src=".\Image\image-20210913174233536.png" alt="image-20210913174233536" style="zoom:80%;" />
 
 **multi_head attention**
 
 重复K次上述过程，将结果拼接。
 
-<img src="F:\lishuai\GCN\image-20210913174631087.png" alt="image-20210913174631087" style="zoom:80%;" />
+<img src=".\Image\image-20210913174631087.png" alt="image-20210913174631087" style="zoom:80%;" />
 
 concatenation is no longer sensible， averaging
 
-<img src="F:\lishuai\GCN\image-20210913174915711.png" alt="image-20210913174915711" style="zoom:80%;" />
+<img src=".\Image\image-20210913174915711.png" alt="image-20210913174915711" style="zoom:80%;" />
 
 K=3
 
-<img src="F:\lishuai\GCN\image-20210913192443811.png" alt="image-20210913192443811" style="zoom: 80%;" />
+<img src=".\Image\image-20210913192443811.png" alt="image-20210913192443811" style="zoom: 80%;" />
 
 比较
 
