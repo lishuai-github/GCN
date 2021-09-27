@@ -32,7 +32,7 @@ $D^{- {1\over 2}}$:度越大，影响越小。
 
 ## 发展过程
 
-<img src="..\Image\image-20210913105103683.png" alt="image-20210913105103683" style="zoom:25%;" />
+<img src=".\Image\image-20210913105103683.png" alt="image-20210913105103683" style="zoom:25%;" />
 
 ## 空域
 
@@ -52,7 +52,7 @@ GraphSage：节点太多的话，利用采样点信息更新信息。
 
 GAT：修改更新函数。
 
-<img src="..\Image\image-20210913111724638.png" alt="image-20210913111724638" style="zoom:25%;" />
+<img src=".\Image\image-20210913111724638.png" alt="image-20210913111724638" style="zoom:25%;" />
 
 
 
@@ -113,7 +113,7 @@ K=3
 
 5. 是特殊的MoNet。
 
+   ![image-20210919115851512](Image/image-20210919115851512.png)
    
-
-
+   ![image-20210919115959525](Image/image-20210919115959525.png)
 
