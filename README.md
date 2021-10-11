@@ -1,2 +1,2 @@
-# DeepLearning
-Deep Learning 
+# GCN
+Graph Convolution Network
