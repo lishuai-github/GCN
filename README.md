@@ -1,6 +1,3 @@
-# Notes
-**学习笔记**
+# Pretrained Multimodal
 
-Graph Convolution Network
-
-动手学深度学习2
+**预训练多模态情感模型建模方法研究**
